@@ -4,8 +4,20 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.bike-marketplace]
+path = "contracts/bike-marketplace.clar"
+depends_on = []
+
 [contracts.bike-rental]
 path = "contracts/bike-rental.clar"
+depends_on = []
+
+[contracts.maintenance-tracking]
+path = "contracts/maintenance-tracking.clar"
+depends_on = []
+
+[contracts.reputation-system]
+path = "contracts/reputation-system.clar"
 depends_on = []
 
 [repl]
